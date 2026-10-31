@@ -1,56 +1,31 @@
-# LogSentry AI
+# 🔍 LogSentry AI
+### Intelligent Log Monitoring & Security Threat Detection Platform
 
-AI-powered log analysis and suspicious activity detection built with Python and Flask.
+<p align="center">
+  <img src="https://img.shields.io/badge/CYBERSECURITY-LOG%20INTELLIGENCE-00C853?style=for-the-badge&logo=shield&logoColor=white" />
+  <img src="https://img.shields.io/badge/PYTHON-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-THREAT%20ANALYSIS-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-orange?style=for-the-badge" />
+</p>
 
-## Features
-- Upload `.log` and `.txt` files
-- Analyze log events
-- Count errors and warnings
-- Detect suspicious activity
-- Display scan findings on a web dashboard
-- Export scan reports as JSON
-- Maximum upload size: 2 MB
+<p align="center">
+  **Monitor Logs. Detect Anomalies. Investigate Threats.**
+</p>
 
-## Tech Stack
-- Python
-- Flask
-- HTML
-- CSS
-- JavaScript
+---
 
-## Setup
+## 🌐 Project Overview
 
-Create and activate a virtual environment on Windows:
+**LogSentry AI** is a cybersecurity-focused log intelligence platform designed to analyze system and application logs, identify unusual activity, and help security teams investigate potential threats.
 
-```powershell
-py -3.13 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
+Logs contain valuable information about system behavior, authentication activity, application errors, and suspicious events.
 
-## Run
+LogSentry AI aims to transform raw log data into meaningful security insights through automated analysis and intelligent threat detection.
 
-```powershell
-python app.py
-```
+> 🛡️ Turning raw system logs into actionable security intelligence.
 
-Open `http://127.0.0.1:5000` in your browser.
+---
 
-## Project Structure
+## ⚡ Core Features
 
-```text
-LogSentry-AI/
-├── app.py
-├── scanner.py
-├── requirements.txt
-├── templates/
-│   └── index.html
-└── static/
-    ├── style.css
-    └── script.js
-```
-
-## Disclaimer
-
-This project is intended for educational and defensive log analysis. Findings should be verified before taking security actions.
-
+| Feature | Description
